@@ -9,7 +9,7 @@ function App() {
   };
   return (
     <>
-      <div className="w-[550px] h-screen mx-auto my-24 bg-black text-center px-4 py-4">
+      <div className="w-[550px] h-[200px] mx-auto my-24 bg-black text-center px-4 pt-10">
         <h1 className="text-2xl font-bold text-white">Contact Me</h1>
         
           <form action="" onSubmit={handleSubmit(submitHandler)}>
@@ -33,7 +33,7 @@ function App() {
             ></textarea>
             <input
               type="submit"
-              className="bg-blue-700 text-2xl text-white hover:cursor-pointer w-80 rounded-2xl"
+              className="bg-blue-700 text-2xl text-white hover:cursor-pointer w-80 rounded-2xl mt-4"
             />
           </form>
       
