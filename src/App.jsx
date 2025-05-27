@@ -9,7 +9,7 @@ function App() {
   };
   return (
     <>
-      <div className="w-[550px] h-[200px] mx-auto my-24 bg-black text-center px-4 pt-10">
+      <div className="w-[550px] h-[400px] mx-auto my-24 bg-black text-center px-4 pt-10">
         <h1 className="text-2xl font-bold text-white">Contact Me</h1>
         
           <form action="" onSubmit={handleSubmit(submitHandler)}>
