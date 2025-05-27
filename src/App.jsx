@@ -9,8 +9,8 @@ function App() {
   };
   return (
     <>
-      <div className="w-[800px] h-screen mx-auto my-24 bg-black ">
-        <h1 className="w-full text-2xl font-bold text-white">Contact Me</h1>
+      <div className="w-[600px] h-screen mx-auto my-24 bg-black text-center px-4">
+        <h1 className="text-2xl font-bold text-white">Contact Me</h1>
         
           <form action="" onSubmit={handleSubmit(submitHandler)}>
             <input
